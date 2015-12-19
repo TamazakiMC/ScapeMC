@@ -2,9 +2,9 @@ package me.tamazaki.suite;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.tamazaki.suite.commands.AlertPlayerCommand;
-import me.tamazaki.suite.commands.BanCommand;
-import me.tamazaki.suite.commands.ListCommand;
+import me.tamazaki.suite.commands.banning.BanCommand;
+import me.tamazaki.suite.commands.basic.AlertPlayerCommand;
+import me.tamazaki.suite.commands.basic.ListCommand;
 import me.tamazaki.suite.listeners.ChatListener;
 import me.tamazaki.suite.listeners.JoinListener;
 import me.tamazaki.suite.listeners.PlayerListener;

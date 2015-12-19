@@ -9,3 +9,5 @@ commands:
       description: Pings a player
     list:
       description: Lists the number of players.
+    ban:
+      description: Bans a player.

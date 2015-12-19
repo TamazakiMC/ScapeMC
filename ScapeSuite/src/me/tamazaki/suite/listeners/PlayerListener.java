@@ -7,6 +7,7 @@ import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
 import me.tamazaki.suite.Prefixes;
 
+
 public class PlayerListener implements Listener {
 	
 	@EventHandler
@@ -15,7 +16,12 @@ public class PlayerListener implements Listener {
 		
 		if(event.getMessage().startsWith("/icanhasbukkit") || event.getMessage().startsWith("/pl") || event.getMessage().startsWith("/plugins") || event.getMessage().startsWith("/minecraft:") || event.getMessage().startsWith("/say") || event.getMessage().startsWith("?")) {
 			event.setCancelled(true);
-			player.sendMessage(Prefixes.PREFIX + "�6�oScapeSuits v0.1 �7developed by �c�lTamazaki");
+			player.sendMessage("§6■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+			player.sendMessage(" ");
+			player.sendMessage(Prefixes.PREFIX + "§oScape Suite §cv0.4 Alpha");
+			player.sendMessage("§3Developed by §b§lTamazaki §3and §b§lwebbhead");
+			player.sendMessage(" ");
+			player.sendMessage("§6■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 		} 
 	}
 }
