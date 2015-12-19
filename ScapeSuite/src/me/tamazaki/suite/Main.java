@@ -3,6 +3,7 @@ package me.tamazaki.suite;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.tamazaki.suite.commands.AlertPlayerCommand;
+import me.tamazaki.suite.commands.BanCommand;
 import me.tamazaki.suite.commands.ListCommand;
 import me.tamazaki.suite.listeners.ChatListener;
 import me.tamazaki.suite.listeners.JoinListener;
@@ -22,6 +23,7 @@ public static Main plugin;
 		
 		getCommand("ping").setExecutor(new AlertPlayerCommand());
 		getCommand("list").setExecutor(new ListCommand());
+		getCommand("ban").setExecutor(new BanCommand());
 		
 	}
 	
