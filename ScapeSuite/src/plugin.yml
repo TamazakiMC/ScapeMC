@@ -1,0 +1,11 @@
+name: ScapeSuite
+version: 0.4
+main: me.tamazaki.suite.Main
+description: ScapeMC Core Plugin.
+depend: [PermissionsEx]
+
+commands:
+    ping:
+      description: Pings a player
+    list:
+      description: Lists the number of players.
