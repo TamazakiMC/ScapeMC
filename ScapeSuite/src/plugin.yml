@@ -11,3 +11,9 @@ commands:
       description: Lists the number of players.
     ban:
       description: Bans a player.
+    message:
+      description: Message a player!
+      aliases: [msg, pm, m]
+    reply:
+      description: Message a player!
+      aliases: [r]
